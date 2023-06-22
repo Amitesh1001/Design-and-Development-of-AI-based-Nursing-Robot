@@ -7,7 +7,7 @@ Recent events have demonstrated how robotics’ involvement in healthcare and re
 * To equip working of robot through wireless , Internet Of Things (IOT) and Sensor Technologies relevant to Medical Treatment 
 * To implement sentiment analysis and online messaging service to improve capability of the robot
 ## Methodology
-The methology of the robot consists of the following steps:
+The methology of the robot consists of the following steps:<br />
 **Dataset Collection**<br />
 In the initial step of the project, a systematic approach is taken to assign a unique identification (ID) to each patient. This process involves utilizing a Raspberry Pi camera module to capture a continuous video stream, from which individual frames are extracted. To accurately detect faces within these frames, the Haar Cascade algorithm is employed, leveraging the power of Intel’s Pretrained detector coupled with Rainer’s trained model. By applying this algorithm, the system effectively identifies and localizes faces within the video frames. As a result, a comprehensive dataset is compiled, consisting of 100 images per patient, each associated with their corresponding ID. This dataset serves as a valuable resource for subsequent stages of analysis and recognition. <br />
 **Model Training**<br />
